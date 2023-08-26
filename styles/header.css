@@ -1,0 +1,20 @@
+.header {
+  padding: 40px 0;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__link {
+  padding: 12px 32px;
+  border-radius: 8px;
+  background: #a6adff;
+  font-size: 20px;
+}
+
+.blue-text {
+  color: #2a18ff;
+}
