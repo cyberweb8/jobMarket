@@ -1,0 +1,22 @@
+.cards__item {
+  padding: 16px;
+}
+.vacancy {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.vacancy__img {
+  width: 44px;
+}
+.vacancy__name {
+  font-size: 20px;
+}
+
+.vacancy__title {
+  font-size: 14px;
+}
+.vacancy__fields {
+}
+.vacancy__field {
+}
