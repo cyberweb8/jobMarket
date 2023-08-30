@@ -26,6 +26,10 @@
   align-items: flex-start;
 }
 
+.filter__label:not(:last-child) {
+  margin-bottom: 8px;
+}
+
 .filter__checkboxes {
   display: flex;
   flex-direction: column;

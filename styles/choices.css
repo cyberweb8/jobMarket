@@ -1,0 +1,26 @@
+.choices {
+  width: 100%;
+}
+
+.choices__inner {
+}
+.choices[data-type*='select-one'] .choices__inner {
+  background-color: #fff;
+  height: 32px;
+  border: 0;
+  padding: 8px 16px;
+}
+
+.choices[data-type*='select-one']::after {
+  width: 20px;
+  height: 20px;
+  border: 0;
+  top: 8px;
+  margin-top: 0;
+  background: url('../images/arrow.svg') no-repeat center/contain;
+}
+
+.choices[data-type*='select-one'].is-open::after {
+  margin-top: 0;
+  transform: rotate(180deg);
+}
